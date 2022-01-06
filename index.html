@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Jack</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css">
+   
+</head>
+<body>
+    
+    <header class="titulo">
+        BlackJack
+    </header>
+
+    <div class="mt-2">
+        <div  id="divBotones" class="container-buttons">
+            <button id="btnNuevoJuego" class="btn new-game">Nuevo Juego</button>
+            <button id="btnPedirCarta" class="btn new-cart bloquear-boton">Pedir Carta</button>
+            <button id="btnDetener" class="btn stop">Detener</button>
+        </div>
+    </div>
+
+    <div class="global-contain--cards">
+        <div class="contain1">
+            <h1>Jugador 1 - <small>0</small></h1>
+            <div id="jugador-cartas" class="contenido-cartas">
+                <!-- <img class="carta" src="./assets/cartas/2C.png" alt=""> -->
+            </div>
+        </div>
+
+        <div class="contain2">
+            <h1>Maquina 1 - <small>0</small></h1>
+            <div id="computadora-cartas">
+                <!-- <img class="carta" src="./assets/cartas/2C.png" alt=""> -->
+            </div>
+        </div>
+    </div>
+    <script src="./js/juego.js"></script>
+
+</body>
+</html>

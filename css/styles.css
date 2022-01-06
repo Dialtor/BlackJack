@@ -1,0 +1,179 @@
+
+html {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-size: 62.5%;
+}
+
+body{
+    background-color: rgb(60, 85, 9);
+}
+
+.titulo {
+    text-align: center;
+    background-color: rgb(20, 20, 20);
+    color: rgb(240, 240, 240);
+    padding: 20px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 14px;
+}
+
+/* button {
+    margin-top: 20px;
+    font-size: 2.8rem;
+    border: none;
+    background-color: rgb(20, 20, 20);
+    color: rgb(240, 240, 240);
+} */
+
+
+.container-buttons .new-game {
+    background-color: rgb(20, 20, 20);
+    color: rgb(236, 236, 236);
+    -webkit-transition: 0.2s;
+}
+
+.container-buttons .new-game:hover {
+    background: rgb(1, 114, 52);
+    color: rgb(236, 236, 236);
+}
+
+.container-buttons .new-cart {
+    background-color: rgb(20, 20, 20);
+    color: rgb(236, 236, 236);
+    -webkit-transition: 0.2s;
+}
+
+.container-buttons .new-cart:hover {
+   background-color: rgb(31, 126, 150);
+    color: rgb(236, 236, 236);
+  
+}
+
+.container-buttons .stop {
+    background-color: rgb(20, 20, 20);
+    color: rgb(236, 236, 236);
+    -webkit-transition: 0.2s;
+}
+
+.container-buttons .stop:hover {
+   background-color: rgb(150, 39, 31);
+    color: rgb(236, 236, 236);
+  
+}
+
+.container-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+
+.container-buttons button {
+    border: none;
+    font-size: 2.8rem;
+    border-radius: 8px;
+    margin: 20px 10px 0 10px;
+    outline:none;
+}
+
+.carta {
+    width: 150px;
+    left: 50px;
+    position: relative;
+    margin-left: -80px;
+}
+
+.maquina {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: red;
+}
+
+.global-contain--cards {
+   display:  flex;
+   justify-content: center;
+   text-align: center;
+   flex-direction: column;
+   gap: 25px;
+   margin-top: 50px;
+   color: white;
+}
+
+.contain1 {
+    width: 95%;
+    margin: 0 auto;
+    height: auto;
+    min-height: 300px;
+    max-height: auto;
+    background-color: rgb(20, 20, 20);
+    border-radius: 12px;
+    display: inline;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.contain1 img {
+ margin-top: 20px;
+ margin-bottom: 20px;
+}
+
+.contain2 img {
+ margin-top: 20px;
+ margin-bottom: 20px;
+}
+
+.contain2 {
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    height: auto;
+    min-height: 300px;
+    max-height: auto;
+    background-color: rgb(20, 20, 20);
+    border-radius: 12px;
+    display: inline;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.contenido-cartas {
+    padding: 0 50px;
+}
+
+
+
+
+@media (max-width: 1000px) {
+    .global-contain--cards {
+      text-align: center;
+      flex-direction: column;
+      gap: 50px;
+    }
+  }
+
+@media (max-width: 640px) {
+    .carta {
+        width: 120px;
+        left: 25px;
+        position: relative;
+        margin-left: -80px;
+    }
+
+    .carta {
+        width: 100px;
+        left: 50px;
+        position: relative;
+        margin-left: -80px;
+    }
+  }
+
+@media (max-width: 420px) {
+ 
+   .contenido-cartas {
+      padding: 0 50px;
+   }
+  }

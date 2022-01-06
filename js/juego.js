@@ -88,7 +88,7 @@ const turnoMaquina = ( puntosMinimos) => {
         valorAcumuladoJugador[1].innerText = puntosComputadora;
 
         const imgCarta = document.createElement('img');
-        imgCarta.src = `assets/cartas/${ carta }.png`;
+        imgCarta.src = `cartas/${ carta }.png`;
         imgCarta.classList.add('carta');
         divCartasMaquina.append(imgCarta);
 
@@ -124,7 +124,7 @@ btnPedirCarta.addEventListener('click', () => {
 
 
     const imgCarta = document.createElement('img');
-    imgCarta.src = `assets/cartas/${ carta }.png`;
+    imgCarta.src = `cartas/${ carta }.png`;
     imgCarta.classList.add('carta');
     divCartasJugador.append(imgCarta);
 

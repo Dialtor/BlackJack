@@ -90,7 +90,7 @@
             valorAcumuladoJugador[1].innerText = puntosComputadora;
 
             const imgCarta = document.createElement('img');
-            imgCarta.src = `./cartas/${ carta }.png`;
+            imgCarta.src = `../cartas/${carta}.png`;
             imgCarta.classList.add('carta');
             divCartasMaquina.append(imgCarta);
 
@@ -126,7 +126,7 @@
 
 
         const imgCarta = document.createElement('img');
-        imgCarta.src = `./cartas/${ carta }.png`;
+        imgCarta.src = `../cartas/${carta}.png`;
         imgCarta.classList.add('carta');
         divCartasJugador.append(imgCarta);
 
